@@ -35,5 +35,5 @@ jobs:
         git commit -m "Update Kaggle notebooks"
         git push https://github.com/${{ github.repository }}.git HEAD:${{ github.ref }} 
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PERSONAL_ACCESS_TOKEN : ${{ secrets.PERSONAL_ACCESS_TOKEN  }}
       
