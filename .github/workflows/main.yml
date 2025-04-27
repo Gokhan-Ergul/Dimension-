@@ -25,7 +25,7 @@ jobs:
       env:
         KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME  }}
         KAGGLE_KEY: ${{ secrets.KAGGLE_KEY  }}
-      run: kaggle kernels pull gokhanergul/563349e5acd19a7f8e57dab0ecfbe4a2 -p .
+      run: kaggle kernels pull ${{ secrets.KAGGLE_NOTEBOOK }} -p .
 
     - name: Commit and push changes
       run: |
