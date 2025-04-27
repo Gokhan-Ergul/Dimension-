@@ -23,8 +23,8 @@ jobs:
 
     - name: Download Kaggle notebook
       env:
-        KAGGLE_USERNAME: ${{ secrets.gokhanergul }}
-        KAGGLE_KEY: ${{ secrets.563349e5acd19a7f8e57dab0ecfbe4a2 }}
+        KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME  }}
+        KAGGLE_KEY: ${{ secrets.KAGGLE_KEY  }}
       run: kaggle kernels pull gokhanergul/563349e5acd19a7f8e57dab0ecfbe4a2 -p .
 
     - name: Commit and push changes
