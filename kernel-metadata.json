@@ -1,0 +1,31 @@
+{
+  "id": "gokhanergul/measuring-size-from-photos",
+  "id_no": 78889529,
+  "title": "Measuring Size From Photos",
+  "code_file": "measuring-size-from-photos.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "gokhanergul/cropped-images-csv",
+    "gokhanergul/cropped-images-file",
+    "gokhanergul/df-with-new-prompt2",
+    "gokhanergul/dimension-csv",
+    "gokhanergul/dimension-photos",
+    "gokhanergul/scaled-title"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [
+    "gokhanergul/best_model/PyTorch/default/1",
+    "gokhanergul/convnext_base_dimensions_freezen/PyTorch/default/1",
+    "gokhanergul/groundingdino_model/PyTorch/default/1",
+    "gokhanergul/resnet50_dimensions_freezen/PyTorch/default/1",
+    "gokhanergul/sam_model/PyTorch/default/1",
+    "gokhanergul/swintransformer_freezen/PyTorch/default/1"
+  ]
+}
