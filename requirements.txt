@@ -1,0 +1,11 @@
+torch
+torchvision
+timm
+pandas
+numpy
+scikit-learn
+opencv-python
+matplotlib
+Pillow
+gradio
+groundingdino @ git+https://github.com/IDEA-Research/GroundingDINO.git
