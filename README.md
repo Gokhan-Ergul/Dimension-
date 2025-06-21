@@ -1,6 +1,6 @@
 # 📏 Visual Estimation of Real-World Product Dimensions
 
-> Estimate the physical height & width of a product — just from images taken at different angles.
+> Estimate the physical height & width of a product — just from an user taken image.
 
 ---
 
